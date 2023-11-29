@@ -1,5 +1,6 @@
-# Project Name
-> Outline a brief description of your project.
+# bike-sharing Linear Regression
+> Build a multiple linear regression model for the prediction of demand for shared bikes
+
 
 
 ## Table of Contents
@@ -11,42 +12,25 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- BoomBikes is a A US bike-sharing provider who has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. 
+- They want to understand the factors affecting the demand for shared bikes in the American market to cater to the people's needs once the quarantine situation ends across the nation due to Covid-19.
+- The dataset being used is based on meteorological surveys and people's styles on daily bike demands across the American. 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- A set of 10 features which have impacts on the shared bike demand
+- The performance of the model is above 75% 
+- The model assumption has been validated
+- The most crucial feature is the temperature which is correlated the most on the bike rental quantity.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
+- numpy - 1.24.1
+- pandas - 2.1.1
+- matplotlib.pyplot - 3.8.0
+- seaborn - 0.13.0
+- statsmodels - version 0.14.0
+- scikit-learn - 1.3.2
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@khangtd1103] - feel free to contact me!
